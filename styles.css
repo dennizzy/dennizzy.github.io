@@ -15,7 +15,15 @@ header {
 
 [src='./images/unkmedia.jpg'] {
 	max-width: auto;
-	height: 200px;
+	height: 150px;
+	padding: 4px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+[src='./images/malogo.png'] {
+	max-width: auto;
+	height: 150px;
 	padding: 4px;
 	margin-left: 5px;
 	margin-bottom: 5px;
@@ -48,6 +56,14 @@ header h1 {
 	text-align: center;
 }
 
+header h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0em 0em 0em 0em;
+	text-align: center;
+}
+
 main {
 	background-color: #008080;
 	margin: 0 auto;
@@ -58,7 +74,6 @@ main h2 {
   	font-size: 18px;
   	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	text-decoration: underline;
 	padding: 0em 1em 0em 1em;
 }
 
