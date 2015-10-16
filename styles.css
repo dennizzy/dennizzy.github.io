@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("./images/pattern1.png");
+}
+
+header {
+	background-color: #fff;
+	padding: 1em 1em 1em 1em;
+	margin: 0 auto;
+	width: 980px;
+}
+
+[src='./images/unkmedia.jpg'] {
+	max-width: auto;
+	height: 200px;
+	padding: 4px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+img.blocktext{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header p {
+	text-transform: uppercase;
+	margin: 0em 0em 0em 0em;
+	font-family: cursive, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+header h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0em 0em 0em 0em;
+	text-align: center;
+}
+
+main {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 980px;
+}
+
+main h2 {
+  	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+	text-decoration: underline;
+	padding: 0em 1em 0em 1em;
+}
+
+main p {
+	font-size: 14px;
+	font-family: "Times New Roman", sans-serif;
+	font color: black;
+	padding: 0em 1em 0em 2em;
+}
+
+.pictures {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0em 1em 0em 1em;
+}
+
+.pictures img {
+	border: 5px solid #ccc;
+	padding: 1px;
+}
+
+footer {
+	background-color: #F0776E;
+	color: #fff;
+	text-align: right;
+	padding: 15px;
+	width: 980px;
+	margin: 0 auto;
+}
