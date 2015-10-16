@@ -11,17 +11,14 @@ header {
 	padding: 1em 1em 1em 1em;
 	margin: 0 auto;
 	width: 980px;
+	text-align: center;
 }
 
-[src='./images/unkmedia.jpg'] {
-	max-width: auto;
-	height: 150px;
-	padding: 4px;
-	margin-left: 5px;
-	margin-bottom: 5px;
+header a {
+	display: inline-block;
 }
 
-[src='./images/malogo.png'] {
+header img {
 	max-width: auto;
 	height: 150px;
 	padding: 4px;
@@ -33,11 +30,6 @@ header {
 	max-width: 980px;
 	height: auto;
 	padding: 4px;
-}
-
-.blocktext img{
-	margin-left: auto;
-	margin-right: auto;
 }
 
 header p {
@@ -64,8 +56,16 @@ header h2 {
 	text-align: center;
 }
 
-main {
+.topsection {
 	background-color: #008080;
+	margin: 0 auto;
+	width: 980px;
+}
+
+
+.bottomsection {
+	background-color: #fff;
+	color: #000;
 	margin: 0 auto;
 	width: 980px;
 }
@@ -85,19 +85,29 @@ main p {
 	padding: 0em 1em 0em 2em;
 }
 
-.pictures {
+.screenshots {
 	width: 980px;
 	margin: 0 auto;
 	padding: 0em 1em 0em 1em;
+	display: inline-block;
+	text-align: center;
 }
 
-.pictures img {
-	border: 5px solid #ccc;
-	padding: 1px;
+.screenshots img {
+	border: 2px solid #000;
+	max-width: auto;
+	height: 200px;
+	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.screenshots a {
+	display: inline-block;
 }
 
 footer {
-	background-color: #fff;
+	background-color: #008080;
 	color: #000;
 	padding: 15px;
 	width: 980px;
