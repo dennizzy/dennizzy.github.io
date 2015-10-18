@@ -67,6 +67,8 @@ header h2 {
 	color: #000;
 	margin: 0 auto;
 	width: 980px;
+	border-top: 1px solid #000;
+	margin-top: 1em;
 }
 
 main h2 {
@@ -74,49 +76,54 @@ main h2 {
   	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 0em 1em 0em 1em;
 }
 
-main p {
+.aboutMe p {
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 	font color: black;
-	padding: 0em 1em 0em 2em;
+	padding: 0em 1em 0em 1em;
 }
 
 
 .aboutMe {
 	width: 980px;
-	margin: 0 auto;
-	padding: 0px;
-	border: 1px solid #000;
+	min-height: auto;
+	margin: auto;	
+	text-align: center;
+	color: #000;
+	margin-top: 1em;
 }
 
 .aboutMe .mauvsa {
-	border: 2px solid #000;
-	color: orange;
-	max-width: 200px;
-	height: 200px;
-	padding: 2px;
-	margin-top: 5px;
+	width: 320px;
+	height: 100px;
+	display: inline-block;
+	background: url("./images/malogo.png");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(255, 255, 255, .7);
+	background-blend-mode: color;
+	text-align: center;
 }
 
 .aboutMe .unkMedia {
-	border: 2px solid #000;
-	color: orange;
-	max-width: 200px;
-	height: 200px;
-	padding: 2px;
-	margin-top: 5px;
+	width: 320px;
+	height: 100px;
+	display: inline-block;
+	background-image: url("./images/unkmedia.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: rgba(255, 255, 255, .7);
+	background-blend-mode: color;
 }
 
 .aboutMe .hobbies {
-	border: 2px solid #000;
-	color: orange;
-	max-width: 200px;
-	height: 200px;
-	padding: 2px;
-	margin-top: 5px;
+	width: 320px;
+	height: 100px;
+	display: inline-block;
 }
 
 .screenshots {
@@ -130,7 +137,7 @@ main p {
 	border: 2px solid #000;
 	max-width: auto;
 	height: 200px;
-	padding: 2px;
+	padding: 0px;
 	margin-left: 5px;
 	margin-bottom: 5px;
 }
@@ -152,4 +159,16 @@ footer p {
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	text-align: right;
+}
+
+.contactInfo {
+	text-align: center;
+	margin: 1em;
+}
+
+.contactInfo img {
+	max-width: auto;
+	height: 50px;
+	padding: 1px;
+	margin: 3px;
 }
